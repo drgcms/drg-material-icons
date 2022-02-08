@@ -1,0 +1,8 @@
+Description:
+    drg_material_icons_update_generator will create CSS file required to use Material fonts icons.
+
+Example:
+    rails generate drg_material_icons_update
+
+    This will create:
+        app/assets/stylesheets/drg_material_icons.css

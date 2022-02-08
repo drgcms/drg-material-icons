@@ -1,0 +1,251 @@
+/*
+ Copyright (c) 2022- Damjan Rems
+*/
+@font-face {
+  font-family: MI;
+  font-style: normal;
+  font-weight: 400;
+  src: url('material-icons-regular.woff2') format('woff2')
+}
+
+@font-face {
+  font-family: MI-O;
+  font-style: normal;
+  font-weight: 400;
+  src: url('material-icons-outline.woff2') format('woff2')
+}
+
+.mi, .fa {
+  font-family: MI;
+}
+.mi-o {
+  font-family: MI-O;
+}
+
+.mi, .mi-o, .fa {
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  vertical-align: middle;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  text-transform: none;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Firefox ONLY */
+@-moz-document url-prefix() {
+  .mi, .mi-o, .fa {
+    vertical-align: text-bottom;
+  }
+}
+
+/* Rules for sizing the icon. */
+.mi-md-18 { font-size: 18px; }
+.mi-md-24 { font-size: 24px; }
+.mi-md-36 { font-size: 36px; }
+.mi-md-48 { font-size: 48px; }
+
+/* Rules for using icons as black on a light background. */
+.mi-md-dark { color: rgba(0, 0, 0, 0.54); }
+.mi-md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+/* Rules for using icons as white on a dark background. */
+mi-md-light { color: rgba(255, 255, 255, 1); }
+.mi-md-inactive { color: rgba(255, 255, 255, 0.3); }
+
+/* Rules to rotate items */
+.mi-r90 {
+  transform: rotate(90deg);
+}
+.mi-r180 {
+  transform: rotate(180deg);
+}
+.mi-r270 {
+  transform: rotate(270deg);
+}
+.mi-flip-horizontal {
+  transform: scale(-1, 1);
+}
+.mi-flip-vertical {
+  transform: scale(1, -1);
+}
+
+/* old fa- settings and mi- replacements */
+.mi-lg, .fa-lg {
+  font-size: 1.33333333em;
+}
+.mi-2x, .fa-2x {
+  font-size: 2em;
+}
+.mi-3x, .fa-3x {
+  font-size: 3em;
+}
+.mi-4x, .fa-4x {
+  font-size: 4em;
+}
+.mi-5x, .fa-5x {
+  font-size: 5em;
+}
+.mi-5x, .fa-5x {
+  width: 1.28571429em;
+  text-align: center;
+}
+.mi-ul, .fa-ul {
+  padding-left: 0;
+  margin-left: 2.14285714em;
+  list-style-type: none;
+}
+.mi-ul > li, .fa-ul > li {
+  position: relative;
+}
+.mi-li, .fa-li {
+  position: absolute;
+  left: -2.14285714em;
+  width: 2.14285714em;
+  top: 0.14285714em;
+  text-align: center;
+}
+.mi-li.mi-lg, .fa-li.fa-lg {
+  left: -1.85714286em;
+}
+.mi-border, .fa-border {
+  padding: .2em .25em .15em;
+  border: solid 0.08em #eeeeee;
+  border-radius: .1em;
+}
+.mi-pull-left, .fa-pull-left {
+  float: left;
+}
+.mi-pull-right, .fa-pull-right {
+  float: right;
+}
+.mi.mi-pull-left, .fa.fa-pull-left {
+  margin-right: .3em;
+}
+.mi.mi-pull-right, .fa.fa-pull-right {
+  margin-left: .3em;
+}
+
+.mi.pull-left, .fa.pull-left {
+  margin-right: .3em;
+}
+.mi.pull-right .fa.pull-right {
+  margin-left: .3em;
+}
+.mi-spin, .fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+.mi-pulse, .fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes mi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes mi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.mi-rotate-90, .fa-rotate-90 {
+  transform: rotate(90deg);
+}
+.mi-rotate-180, .fa-rotate-180 {
+  transform: rotate(180deg);
+}
+.mi-rotate-270, .fa-rotate-270 {
+  transform: rotate(270deg);
+}
+.mi-flip-horizontal, .fa-flip-horizontal {
+  transform: scale(-1, 1);
+}
+.mi-flip-vertical, .fa-flip-vertical {
+  transform: scale(1, -1);
+}
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .mi-rotate-90,
+:root .mi-rotate-180,
+:root .mi-rotate-270,
+:root .mi-flip-horizontal,
+:root .mi-flip-vertical {
+  filter: none;
+}
+.mi-stack, .fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+.fa-stack-1x,
+.fa-stack-2x,
+.mi-stack-1x,
+.mi-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+.mi-stack-1x, .fa-stack-1x {
+  line-height: inherit;
+}
+.mi-stack-2x, .fa-stack-2x {
+  font-size: 2em;
+}
+.mi-inverse, .fa-inverse {
+  color: #ffffff;
+}
+
+/* some alternative icon names */
+.mi-sort_unset:before {content: '\ef4f';}
+.mi-sort_up:before {content: '\e5db';}
+.mi-sort_down:before {content: '\e5d8';}
