@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.description   = 'drg_material_icons provides Google Material icon web fonts and stylesheets as a Rails engine for use with the asset pipeline.'
   gem.summary       = 'an asset gemification of the Google Material icon font library'
   gem.homepage      = 'https://github.com/drgcms/drg-material-icons'
-  gem.licenses      = ['MIT', 'SIL Open Font License']
+  gem.licenses      = ['MIT']
 
   gem.files         = `git ls-files -- {app,bin,lib,test,spec}/* {LICENSE*,Rakefile,README*}`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec}/*`.split("\n")
