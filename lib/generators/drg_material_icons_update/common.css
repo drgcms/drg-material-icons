@@ -58,7 +58,7 @@
 .mi-md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 
 /* Rules for using icons as white on a dark background. */
-mi-md-light { color: rgba(255, 255, 255, 1); }
+.mi-md-light { color: rgba(255, 255, 255, 1); }
 .mi-md-inactive { color: rgba(255, 255, 255, 0.3); }
 
 /* Rules to rotate items */
@@ -245,7 +245,29 @@ mi-md-light { color: rgba(255, 255, 255, 1); }
   color: #ffffff;
 }
 
-/* some alternative icon names */
+/* fa icons replacements */
+.mi-users:before {content: '\e7fc';}
+.mi-bars:before {content: '\e5d2';}
+.mi-file-excel:before {content: '\e2c4'}
+.mi-cog:before {content: '\e8b8';}
+.mi-envelope:before {content: '\e0e1';}
+.mi-square:before {content: '\e834';}
+.mi-check-square:before {content: '\e835';}
+.mi-plus:before {content: '\e145';}
+.mi-frown:before {content: '\e811';}
+.mi-thumbs-up:before {content: '\e8dc';}
+.mi-thumbs-down:before {content: '\e8db';}
+.mi-mobile:before {content: '\e32c';}
+.mi-eye:before {content: '\e8f4';}
+.mi-question-circle:before {content: '\e887';}
+.mi-calendar:before {content: '\ebcc';}
+.mi-table:before {content: '\f101';}
+.mi-sliders:before {content: '\e429';}
+.mi-file-text:before {content: '\e873';}
+.mi-trash:before {content: '\e92e';}
+.mi-caret-down:before {content: '\e5c5';}
 .mi-sort_unset:before {content: '\ef4f';}
 .mi-sort_up:before {content: '\e5db';}
 .mi-sort_down:before {content: '\e5d8';}
+
+
