@@ -269,5 +269,10 @@
 .mi-sort_unset:before {content: '\ef4f';}
 .mi-sort_up:before {content: '\e5db';}
 .mi-sort_down:before {content: '\e5d8';}
-
+.mi-arrow-right:before {content: '\e5c8';}
+.mi-arrow-left:before {content: '\e5c4';}
+.mi-clock:before {content: '\e8b5';}
+.mi-calculator:before {content: '\ea5f';}
+.mi-car:before {content: '\e531';}
+.mi-plus-square:before {content: '\e146';}
 

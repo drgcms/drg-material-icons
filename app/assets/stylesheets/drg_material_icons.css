@@ -271,6 +271,10 @@ mi-md-light { color: rgba(255, 255, 255, 1); }
 .mi-sort_down:before {content: '\e5d8';}
 .mi-arrow-right:before {content: '\e5c8';}
 .mi-arrow-left:before {content: '\e5c4';}
+.mi-clock:before {content: '\e8b5';}
+.mi-calculator:before {content: '\ea5f';}
+.mi-car:before {content: '\e531';}
+.mi-plus-square:before {content: '\e146';}
 
 
 .mi-10k:before {content: '\e951';}
