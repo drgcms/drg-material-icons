@@ -40,13 +40,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Firefox ONLY */
-@-moz-document url-prefix() {
-  .mi, .mi-o, .fa {
-    /*vertical-align: text-bottom;*/
-  }
-}
-
 /* Rules for sizing the icon. */
 .mi-md-18 { font-size: 18px; }
 .mi-md-24 { font-size: 24px; }
@@ -58,7 +51,7 @@
 .mi-md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
 
 /* Rules for using icons as white on a dark background. */
-mi-md-light { color: rgba(255, 255, 255, 1); }
+.mi-md-light { color: rgba(255, 255, 255, 1); }
 .mi-md-inactive { color: rgba(255, 255, 255, 0.3); }
 
 /* Rules to rotate items */
@@ -275,7 +268,6 @@ mi-md-light { color: rgba(255, 255, 255, 1); }
 .mi-calculator:before {content: '\ea5f';}
 .mi-car:before {content: '\e531';}
 .mi-plus-square:before {content: '\e146';}
-
 
 .mi-10k:before {content: '\e951';}
 .mi-10mp:before {content: '\e952';}

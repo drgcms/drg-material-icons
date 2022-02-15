@@ -28,7 +28,7 @@
   font-style: normal;
   vertical-align: middle;
   display: inline-block;
-  width: 1em;
+  width: initial;
   height: 1em;
   text-transform: none;
 
@@ -38,13 +38,6 @@
   text-rendering: optimizeLegibility;
   /* Support for Firefox. */
   -moz-osx-font-smoothing: grayscale;
-}
-
-/* Firefox ONLY */
-@-moz-document url-prefix() {
-  .mi, .mi-o, .fa {
-    vertical-align: text-bottom;
-  }
 }
 
 /* Rules for sizing the icon. */
