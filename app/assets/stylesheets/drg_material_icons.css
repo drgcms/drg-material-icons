@@ -268,6 +268,11 @@
 .mi-calculator:before {content: '\ea5f';}
 .mi-car:before {content: '\e531';}
 .mi-plus-square:before {content: '\e146';}
+.mi-paperclip:before {content: '\e226';}
+.mi-sign-in:before {content: '\ea77';}
+.mi-sign-out:before {content: '\e9ba';}
+.mi-check-circle:before {content: '\e86c';}
+
 
 .mi-10k:before {content: '\e951';}
 .mi-10mp:before {content: '\e952';}
