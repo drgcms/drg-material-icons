@@ -73,19 +73,19 @@
 
 /* old fa- settings and mi- replacements */
 .mi-lg, .fa-lg {
-  font-size: 1.33333333em;
+  font-size: 32px;
 }
 .mi-2x, .fa-2x {
-  font-size: 2em;
+  font-size: 48px;
 }
 .mi-3x, .fa-3x {
-  font-size: 3em;
+  font-size: 72px;
 }
 .mi-4x, .fa-4x {
-  font-size: 4em;
+  font-size: 96px;
 }
 .mi-5x, .fa-5x {
-  font-size: 5em;
+  font-size: 120px;
 }
 .mi-5x, .fa-5x {
   width: 1.28571429em;
@@ -134,8 +134,8 @@
   margin-left: .3em;
 }
 .mi-spin, .fa-spin {
-  -webkit-animation: fa-spin 2s infinite linear;
-  animation: fa-spin 2s infinite linear;
+  -webkit-animation: fa-spin 1.5s infinite linear;
+  animation: fa-spin 1.5s infinite linear;
 }
 .mi-pulse, .fa-pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
