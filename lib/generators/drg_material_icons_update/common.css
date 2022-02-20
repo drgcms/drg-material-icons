@@ -73,23 +73,19 @@
 
 /* old fa- settings and mi- replacements */
 .mi-lg, .fa-lg {
-  font-size: 1.33333333em;
+  font-size: 32px;
 }
 .mi-2x, .fa-2x {
-  font-size: 2em;
+  font-size: 48px;
 }
 .mi-3x, .fa-3x {
-  font-size: 3em;
+  font-size: 72px;
 }
 .mi-4x, .fa-4x {
-  font-size: 4em;
+  font-size: 96px;
 }
 .mi-5x, .fa-5x {
-  font-size: 5em;
-}
-.mi-5x, .fa-5x {
-  width: 1.28571429em;
-  text-align: center;
+  font-size: 120px;
 }
 .mi-ul, .fa-ul {
   padding-left: 0;
@@ -134,8 +130,8 @@
   margin-left: .3em;
 }
 .mi-spin, .fa-spin {
-  -webkit-animation: fa-spin 2s infinite linear;
-  animation: fa-spin 2s infinite linear;
+  -webkit-animation: fa-spin 1.5s infinite linear;
+  animation: fa-spin 1.5s infinite linear;
 }
 .mi-pulse, .fa-pulse {
   -webkit-animation: fa-spin 1s infinite steps(8);
@@ -241,35 +237,35 @@
 /* fa icons replacements */
 .mi-users:before {content: '\e7fc';}
 .mi-bars:before {content: '\e5d2';}
-.mi-file-excel:before {content: '\e2c4'}
+.mi-file_excel:before {content: '\e2c4'}
 .mi-cog:before {content: '\e8b8';}
 .mi-envelope:before {content: '\e0e1';}
 .mi-square:before {content: '\e834';}
-.mi-check-square:before {content: '\e835';}
+.mi-check_square:before {content: '\e835';}
 .mi-plus:before {content: '\e145';}
 .mi-frown:before {content: '\e811';}
-.mi-thumbs-up:before {content: '\e8dc';}
-.mi-thumbs-down:before {content: '\e8db';}
+.mi-thumbs_up:before {content: '\e8dc';}
+.mi-thumbs_down:before {content: '\e8db';}
 .mi-mobile:before {content: '\e32c';}
 .mi-eye:before {content: '\e8f4';}
-.mi-question-circle:before {content: '\e887';}
+.mi-question_circle:before {content: '\e887';}
 .mi-calendar:before {content: '\ebcc';}
 .mi-table:before {content: '\f101';}
 .mi-sliders:before {content: '\e429';}
-.mi-file-text:before {content: '\e873';}
+.mi-file_text:before {content: '\e873';}
 .mi-trash:before {content: '\e92e';}
-.mi-caret-down:before {content: '\e5c5';}
+.mi-caret_down:before {content: '\e5c5';}
 .mi-sort_unset:before {content: '\ef4f';}
 .mi-sort_up:before {content: '\e5db';}
 .mi-sort_down:before {content: '\e5d8';}
-.mi-arrow-right:before {content: '\e5c8';}
-.mi-arrow-left:before {content: '\e5c4';}
+.mi-arrow_right:before {content: '\e5c8';}
+.mi-arrow_left:before {content: '\e5c4';}
 .mi-clock:before {content: '\e8b5';}
 .mi-calculator:before {content: '\ea5f';}
 .mi-car:before {content: '\e531';}
-.mi-plus-square:before {content: '\e146';}
+.mi-plus_square:before {content: '\e146';}
 .mi-paperclip:before {content: '\e226';}
-.mi-sign-in:before {content: '\ea77';}
-.mi-sign-out:before {content: '\e9ba';}
-.mi-check-circle:before {content: '\e86c';}
+.mi-sign_in:before {content: '\ea77';}
+.mi-sign_out:before {content: '\e9ba';}
+.mi-check_circle:before {content: '\e86c';}
 

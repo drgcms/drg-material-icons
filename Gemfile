@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in font-awesome-rails.gemspec
+# Specify your gem's dependencies in drg_material_icons.gemspec
 gemspec
 
 group :development do

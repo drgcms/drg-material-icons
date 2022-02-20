@@ -17,7 +17,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'railties', '>= 3.2', '< 8.0'
 
   gem.add_development_dependency 'activesupport'
-  gem.add_development_dependency 'sassc-rails'
 
   gem.required_ruby_version = '>= 2'
 end
