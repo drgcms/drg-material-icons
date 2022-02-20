@@ -43,6 +43,8 @@ module DrgMaterialIcons
           classes[0] = 'mi-o'
           classes[1].sub!('-o', '')
         end
+        # replace - with _ in icon name for compatibility with font awesome
+        classes[1].gsub!('-', '_').sub!('mi_', 'mi-')
 
         icon = content_tag(:i, nil, options.merge(class: classes))
         Private.icon_join(icon, text, right_icon)
