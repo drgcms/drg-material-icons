@@ -268,6 +268,7 @@
 .mi-sign_in:before {content: '\ea77';}
 .mi-sign_out:before {content: '\e9ba';}
 .mi-check_circle:before {content: '\e86c';}
+.mi-plus_circle:before {content: '\e147';}
 
 .mi-10k:before {content: '\e951';}
 .mi-10mp:before {content: '\e952';}

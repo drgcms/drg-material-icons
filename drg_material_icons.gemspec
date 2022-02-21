@@ -8,8 +8,9 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/drgcms/drg-material-icons'
   gem.licenses      = ['MIT']
 
-  gem.files         = `git ls-files -- {app,bin,lib,test,spec}/* {LICENSE*,Rakefile,README*}`.split("\n")
-  gem.test_files    = `git ls-files -- {test,spec}/*`.split("\n")
+  gem.files         = Dir["{app,lib}/**/*"] + %w[LICENSE Rakefile README.md]
+  gem.test_files    = Dir["test/**/*"]
+
   gem.name          = 'drg_material_icons'
   gem.require_paths = ['lib']
   gem.version       = DrgMaterialIcons::Rails::VERSION
