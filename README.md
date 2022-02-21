@@ -61,22 +61,27 @@ views _icontastic!_
 
 ```ruby
 mi_icon "photo_camera"
-# => <i class="mi mi-camera-retro"></i>
+# => <i class="mi mi-camera_retro"></i>
 
 mi_icon "photo_camera", text: "Take a photo"
-# => <i class="mi mi-camera-retro"></i> Take a photo
+# => <i class="mi mi-photo_camera"></i> Take a photo
 
 mi_icon "chevron_right", text: "Get started", right: true
-# => Get started <i class="mi mi-chevron-right"></i>
-
-mi_icon "format_quote left 4x", class: "text-muted pull-left"
-# => <i class="mi mi-quote-left mi-4x text-muted pull-left"></i>
+# => Get started <i class="mi mi-chevron_right mi-poll-right"></i>
 
 content_tag(:li, mi_icon("check li", text: "Bulleted list item"))
 # => <li><i class="mi mi-check mi-li"></i> Bulleted list item</li>
 ```
 
-## Misc
+drg_material_icons includes two material icon font types. Regular and outline.
+To get outline type of icon simply add -o suffix to icon name.  
+```ruby
+mi_icon "photo_camera-o"
+# => <i class="mi-o mi-camera-retro"></i>
+
+mi_icon "chevron_right-o", text: "Get started", right: true
+# => Get started <i class="mi-o mi-chevron_right mi-poll-right"></i>
+``
 
 ### Rails engines
 
@@ -84,12 +89,6 @@ When building a Rails engine that includes drg_material_icons as a dependency,
 be sure to `require "drg_material_icons"` somewhere during the initialization of
 your engine. Otherwise, Rails will not automatically pick up the load path of
 the drg_material_icons assets and helpers.
-
-## Versioning
-
-Versioning will follow the releases of Material-icons which follows Semantic
-Versioning 2.0 as defined at <http://semver.org>. We will do our best not to
-make any breaking changes.
 
 ## Compatibility with font-awesome-rails gem
 
