@@ -269,6 +269,11 @@
 .mi-sign_out:before {content: '\e9ba';}
 .mi-check_circle:before {content: '\e86c';}
 .mi-plus_circle:before {content: '\e147';}
+.mi-cogs:before {content: '\ea3d';}
+.mi-table:before {font-family: MI-O; content: '\f101';}
+.mi-arrow_up:before {content: '\e5d8';}
+.mi-arrow_down:before {content: '\e5db';}
+
 
 .mi-10k:before {content: '\e951';}
 .mi-10mp:before {content: '\e952';}
