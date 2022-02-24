@@ -235,6 +235,7 @@
 }
 
 /* fa icons replacements */
+.mi-user:before {content: '\e7fd';}
 .mi-users:before {content: '\e7fc';}
 .mi-bars:before {content: '\e5d2';}
 .mi-file_excel:before {content: '\e2c4'}
@@ -248,6 +249,7 @@
 .mi-thumbs_down:before {content: '\e8db';}
 .mi-mobile:before {content: '\e32c';}
 .mi-eye:before {content: '\e8f4';}
+.mi-question:before {content: '\eb8b';}
 .mi-question_circle:before {content: '\e887';}
 .mi-calendar:before {content: '\ebcc';}
 .mi-table:before {content: '\f101';}
@@ -274,7 +276,8 @@
 .mi-arrow_up:before {content: '\e5d8';}
 .mi-arrow_down:before {content: '\e5db';}
 .mi-window_close:before {content: '\e0e9';}
-
+.mi-chevron_down:before {content: '\e5cf';}
+.mi-chevron_up:before {content: '\e5ce';}
 
 .mi-10k:before {content: '\e951';}
 .mi-10mp:before {content: '\e952';}
