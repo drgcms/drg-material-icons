@@ -278,6 +278,9 @@
 .mi-window_close:before {content: '\e0e9';}
 .mi-chevron_down:before {content: '\e5cf';}
 .mi-chevron_up:before {content: '\e5ce';}
+.mi-angle_down:before {content: '\e5cf'; font-size: 18px}
+.mi-angle_up:before {content: '\e5ce'; font-size: 18px}
+.mi-times:before {content: '\e5cd'}
 
 .mi-10k:before {content: '\e951';}
 .mi-10mp:before {content: '\e952';}
