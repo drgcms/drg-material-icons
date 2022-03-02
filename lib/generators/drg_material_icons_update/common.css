@@ -231,8 +231,13 @@
   font-size: 2em;
 }
 .mi-inverse, .fa-inverse {
-  color: #ffffff;
+  color: #fff;
 }
+
+.mi-red { color: #c43;}
+.mi-green { color: #6a6;}
+.mi-blue { color: #28f;}
+.mi-violet { color: #71c;}
 
 /* fa icons replacements */
 .mi-user:before {content: '\e7fd';}
