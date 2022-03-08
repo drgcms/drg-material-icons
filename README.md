@@ -60,8 +60,8 @@ To get outline type of icons simply add -o suffix to icon name.
 mi_icon "photo_camera-o"
 # => <i class="mi-o mi-photo_camera"></i>
 
-mi_icon "chevron_right-o", text: "Get started", right: true
-# => Get started <i class="mi-o mi-chevron_right">Get started</i>
+mi_icon "photo_camera-o", text: "Get started"
+# => Get started <i class="mi-o mi-photo_camera">Get started</i>
 ```
 
 There is also support for colored icons.
