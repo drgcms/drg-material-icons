@@ -494,6 +494,7 @@
 .mi-auto_fix_normal:before {content: '\e664';}
 .mi-auto_fix_off:before {content: '\e665';}
 .mi-auto_graph:before {content: '\e4fb';}
+.mi-auto_mode:before {content: '\ec20';}
 .mi-auto_stories:before {content: '\e666';}
 .mi-autofps_select:before {content: '\efdc';}
 .mi-autorenew:before {content: '\e863';}
@@ -538,6 +539,8 @@
 .mi-bike_scooter:before {content: '\ef45';}
 .mi-biotech:before {content: '\ea3a';}
 .mi-blender:before {content: '\efe3';}
+.mi-blinds:before {content: '\e286';}
+.mi-blinds_closed:before {content: '\ec1f';}
 .mi-block:before {content: '\e14b';}
 .mi-bloodtype:before {content: '\efe4';}
 .mi-bluetooth:before {content: '\e1a7';}
@@ -778,6 +781,8 @@
 .mi-currency_rupee:before {content: '\eaf7';}
 .mi-currency_yen:before {content: '\eafb';}
 .mi-currency_yuan:before {content: '\eaf9';}
+.mi-curtains:before {content: '\ec1e';}
+.mi-curtains_closed:before {content: '\ec1d';}
 .mi-cut:before {content: '\f08b';}
 .mi-cyclone:before {content: '\ebd5';}
 .mi-dangerous:before {content: '\e99a';}
@@ -923,7 +928,9 @@
 .mi-elderly:before {content: '\f21a';}
 .mi-elderly_woman:before {content: '\eb69';}
 .mi-electric_bike:before {content: '\eb1b';}
+.mi-electric_bolt:before {content: '\ec1c';}
 .mi-electric_car:before {content: '\eb1c';}
+.mi-electric_meter:before {content: '\ec1b';}
 .mi-electric_moped:before {content: '\eb1d';}
 .mi-electric_rickshaw:before {content: '\eb1e';}
 .mi-electric_scooter:before {content: '\eb1f';}
@@ -942,6 +949,7 @@
 .mi-emoji_people:before {content: '\ea1d';}
 .mi-emoji_symbols:before {content: '\ea1e';}
 .mi-emoji_transportation:before {content: '\ea1f';}
+.mi-energy_savings_leaf:before {content: '\ec1a';}
 .mi-engineering:before {content: '\ea3d';}
 .mi-enhance_photo_translate:before {content: '\e8fc';}
 .mi-enhanced_encryption:before {content: '\e63f';}
@@ -1127,6 +1135,7 @@
 .mi-gamepad:before {content: '\e30f';}
 .mi-games:before {content: '\e021';}
 .mi-garage:before {content: '\f011';}
+.mi-gas_meter:before {content: '\ec19';}
 .mi-gavel:before {content: '\e90e';}
 .mi-generating_tokens:before {content: '\e749';}
 .mi-gesture:before {content: '\e155';}
@@ -1187,6 +1196,7 @@
 .mi-hearing:before {content: '\e023';}
 .mi-hearing_disabled:before {content: '\f104';}
 .mi-heart_broken:before {content: '\eac2';}
+.mi-heat_pump:before {content: '\ec18';}
 .mi-height:before {content: '\ea16';}
 .mi-help:before {content: '\e887';}
 .mi-help_center:before {content: '\f1c0';}
@@ -1333,6 +1343,7 @@
 .mi-light:before {content: '\f02a';}
 .mi-light_mode:before {content: '\e518';}
 .mi-lightbulb:before {content: '\e0f0';}
+.mi-lightbulb_circle:before {content: '\ebfe';}
 .mi-line_axis:before {content: '\ea9a';}
 .mi-line_style:before {content: '\e919';}
 .mi-line_weight:before {content: '\e91a';}
@@ -1408,7 +1419,9 @@
 .mi-lte_plus_mobiledata:before {content: '\f02d';}
 .mi-luggage:before {content: '\f235';}
 .mi-lunch_dining:before {content: '\ea61';}
+.mi-lyrics:before {content: '\ec0b';}
 .mi-mail:before {content: '\e158';}
+.mi-mail_lock:before {content: '\ec0a';}
 .mi-mail_outline:before {content: '\e0e1';}
 .mi-male:before {content: '\e58e';}
 .mi-man:before {content: '\e4eb';}
@@ -1466,6 +1479,7 @@
 .mi-mode_comment:before {content: '\e253';}
 .mi-mode_edit:before {content: '\e254';}
 .mi-mode_edit_outline:before {content: '\f035';}
+.mi-mode_fan_off:before {content: '\ec17';}
 .mi-mode_night:before {content: '\f036';}
 .mi-mode_of_travel:before {content: '\e7ce';}
 .mi-mode_standby:before {content: '\f037';}
@@ -1522,6 +1536,7 @@
 .mi-near_me_disabled:before {content: '\f1ef';}
 .mi-nearby_error:before {content: '\f03b';}
 .mi-nearby_off:before {content: '\f03c';}
+.mi-nest_cam_wired_stand:before {content: '\ec16';}
 .mi-network_cell:before {content: '\e1b9';}
 .mi-network_check:before {content: '\e640';}
 .mi-network_locked:before {content: '\e61a';}
@@ -1585,6 +1600,8 @@
 .mi-offline_bolt:before {content: '\e932';}
 .mi-offline_pin:before {content: '\e90a';}
 .mi-offline_share:before {content: '\e9c5';}
+.mi-oil_barrel:before {content: '\ec15';}
+.mi-on_device_training:before {content: '\ebfd';}
 .mi-ondemand_video:before {content: '\e63a';}
 .mi-online_prediction:before {content: '\f0eb';}
 .mi-opacity:before {content: '\e91c';}
@@ -1756,6 +1773,8 @@
 .mi-privacy_tip:before {content: '\f0dc';}
 .mi-private_connectivity:before {content: '\e744';}
 .mi-production_quantity_limits:before {content: '\e1d1';}
+.mi-propane:before {content: '\ec14';}
+.mi-propane_tank:before {content: '\ec13';}
 .mi-psychology:before {content: '\ea4a';}
 .mi-public:before {content: '\e80b';}
 .mi-public_off:before {content: '\f1ca';}
@@ -1814,6 +1833,7 @@
 .mi-remove_from_queue:before {content: '\e067';}
 .mi-remove_moderator:before {content: '\e9d4';}
 .mi-remove_red_eye:before {content: '\e417';}
+.mi-remove_road:before {content: '\ebfc';}
 .mi-remove_shopping_cart:before {content: '\e928';}
 .mi-reorder:before {content: '\e8fe';}
 .mi-repeat:before {content: '\e040';}
@@ -1845,6 +1865,8 @@
 .mi-ring_volume:before {content: '\e0d1';}
 .mi-rocket:before {content: '\eba5';}
 .mi-rocket_launch:before {content: '\eb9b';}
+.mi-roller_shades:before {content: '\ec12';}
+.mi-roller_shades_closed:before {content: '\ec11';}
 .mi-roller_skating:before {content: '\ebcd';}
 .mi-roofing:before {content: '\f201';}
 .mi-room:before {content: '\e8b4';}
@@ -1897,6 +1919,7 @@
 .mi-screen_search_desktop:before {content: '\ef70';}
 .mi-screen_share:before {content: '\e0e2';}
 .mi-screenshot:before {content: '\f056';}
+.mi-screenshot_monitor:before {content: '\ec08';}
 .mi-scuba_diving:before {content: '\ebce';}
 .mi-sd:before {content: '\e9dd';}
 .mi-sd_card:before {content: '\e623';}
@@ -1917,6 +1940,7 @@
 .mi-send_time_extension:before {content: '\eadb';}
 .mi-send_to_mobile:before {content: '\f05c';}
 .mi-sensor_door:before {content: '\f1b5';}
+.mi-sensor_occupied:before {content: '\ec10';}
 .mi-sensor_window:before {content: '\f1b4';}
 .mi-sensors:before {content: '\e51e';}
 .mi-sensors_off:before {content: '\e51f';}
@@ -2020,6 +2044,7 @@
 .mi-snowshoeing:before {content: '\e514';}
 .mi-soap:before {content: '\f1b2';}
 .mi-social_distance:before {content: '\e1cb';}
+.mi-solar_power:before {content: '\ec0f';}
 .mi-sort:before {content: '\e164';}
 .mi-sort_by_alpha:before {content: '\e053';}
 .mi-sos:before {content: '\ebf7';}
@@ -2220,6 +2245,7 @@
 .mi-toll:before {content: '\e8e0';}
 .mi-tonality:before {content: '\e427';}
 .mi-topic:before {content: '\f1c8';}
+.mi-tornado:before {content: '\e199';}
 .mi-touch_app:before {content: '\e913';}
 .mi-tour:before {content: '\ef75';}
 .mi-toys:before {content: '\e332';}
@@ -2238,6 +2264,7 @@
 .mi-trending_neutral:before {content: '\e8e4';}
 .mi-trending_up:before {content: '\e8e5';}
 .mi-trip_origin:before {content: '\e57b';}
+.mi-troubleshoot:before {content: '\e1d2';}
 .mi-try:before {content: '\f07c';}
 .mi-tsunami:before {content: '\ebd8';}
 .mi-tty:before {content: '\f1aa';}
@@ -2280,6 +2307,8 @@
 .mi-vertical_align_center:before {content: '\e259';}
 .mi-vertical_align_top:before {content: '\e25a';}
 .mi-vertical_distribute:before {content: '\e076';}
+.mi-vertical_shades:before {content: '\ec0e';}
+.mi-vertical_shades_closed:before {content: '\ec0d';}
 .mi-vertical_split:before {content: '\e949';}
 .mi-vibration:before {content: '\e62d';}
 .mi-video_call:before {content: '\e070';}
@@ -2385,12 +2414,14 @@
 .mi-wifi_tethering_error:before {content: '\f086';}
 .mi-wifi_tethering_error_rounded:before {content: '\f086';}
 .mi-wifi_tethering_off:before {content: '\f087';}
+.mi-wind_power:before {content: '\ec0c';}
 .mi-window:before {content: '\f088';}
 .mi-wine_bar:before {content: '\f1e8';}
 .mi-woman:before {content: '\e13e';}
 .mi-woo_commerce:before {content: '\ea6d';}
 .mi-wordpress:before {content: '\ea9f';}
 .mi-work:before {content: '\e8f9';}
+.mi-work_history:before {content: '\ec09';}
 .mi-work_off:before {content: '\e942';}
 .mi-work_outline:before {content: '\e943';}
 .mi-workspace_premium:before {content: '\e7af';}
