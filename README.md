@@ -16,7 +16,7 @@ with drg_material_icons gem.
 
 Add this code to your Gemfile:
 ```ruby
-gem "drg_material_fonts"
+gem "drg_material_icons"
 ```
 
 and run `bundle install`.
@@ -27,7 +27,7 @@ In your `application.css`, include the css file:
 
 ```css
 /*
- *= require drg_material_fonts
+ *= require drg_material_icons
  */
 ```
 Then restart your webserver if it was previously running.
@@ -62,6 +62,12 @@ mi_icon "photo_camera-o"
 
 mi_icon "photo_camera-o", text: "Get started"
 # => Get started <i class="mi-o mi-photo_camera">Get started</i>
+```
+
+Support for spinning icons.
+```ruby
+mi_icon "settings-o spin"
+# => <i class="mi-o mi-settings mi-spin"></i>
 ```
 
 There is also support for colored icons.
