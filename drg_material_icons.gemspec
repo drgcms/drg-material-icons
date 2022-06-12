@@ -15,7 +15,7 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = DrgMaterialIcons::Rails::VERSION
 
-  gem.add_dependency 'railties', '>= 3.2', '< 8.0'
+  gem.add_dependency 'railties'#, '>= 3.2', '< 8.0'
 
   gem.add_development_dependency 'activesupport'
 
