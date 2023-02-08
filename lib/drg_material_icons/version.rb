@@ -1,6 +1,6 @@
 module DrgMaterialIcons
   module Rails
-    MI_VERSION = '0.22.3'.freeze
-    VERSION = '0.2.0'.freeze
+    MI_VERSION = '0.22.11'.freeze
+    VERSION = '0.23.1'.freeze
   end
 end
