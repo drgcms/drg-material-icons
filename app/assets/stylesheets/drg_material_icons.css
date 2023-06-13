@@ -238,6 +238,7 @@
 .mi-green { color: #6a6;}
 .mi-blue { color: #28f;}
 .mi-violet { color: #71c;}
+.mi-gray, .mi-grey {color: #ccc;}
 
 /* fa icons replacements */
 .mi-user:before {content: '\e7fd';}
